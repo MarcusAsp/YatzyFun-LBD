@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yatsy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="yatsy.js"></script>
+</head>
+<body>
+    <table style="background-color:blueviolet;">
+        <tr>
+            <th>Spelare:</th>
+            <th>Spelare1</th>
+            <th>Spelare2</th>
+            <th>Spelare3</th>
+        </tr>
+        <tr>
+            <th>1:or:</th>
+            <td id="spelare1-one"></td>
+            <td id="spelare2-one"></td>
+            <td id="spelare3-one"></td>
+        </tr>
+        <tr>
+            <th>2:or:</th>
+            <td id="spelare1-two"></td>
+            <td id="spelare2-two"></td>
+            <td id="spelare3-two"></td>
+        </tr>
+        <tr>
+            <th>3:or:</th>
+            <td id="spelare1-three"></td>
+            <td id="spelare2-three"></td>
+            <td id="spelare3-three"></td>
+        </tr>
+        <tr>
+            <th>4:or:</th>
+            <td id="spelare1-four"></td>
+            <td id="spelare2-four"></td>
+            <td id="spelare3-four"></td>
+        </tr>
+        <tr>
+            <th>5:or:</th>
+            <td id="spelare1-five"></td>
+            <td id="spelare2-five"></td>
+            <td id="spelare3-five"></td>
+        </tr>
+        <tr>
+            <th>6:or:</th>
+            <td id="spelare1-six"></td>
+            <td id="spelare2-six"></td>
+            <td id="spelare3-six"></td>
+        </tr>
+        <tr>
+            <th>Yatzy:</th>
+            <td id="spelare1-yatzy"></td>
+            <td id="spelare2-yatzy"></td>
+            <td id="spelare3-yatzy"></td>
+        </tr>
+    </table>
+
+    <br>
+    <p>Dina tärningar. Vilka vill du spara?</p>
+    <div id="dices">
+        <button id="dice1" data-man="inte-sparad"></button>
+        <button id="dice2" data-man="inte-sparad"></button>
+        <button id="dice3" data-man="inte-sparad"></button>
+        <button id="dice4" data-man="inte-sparad"></button>
+        <button id="dice5" data-man="inte-sparad"></button>
+    </div>
+    <br><br><br>
+    <p>Dina sparade tärningar. Vilka vill du ändra tillbaka?</p>
+    <div id="dices2">
+            <button id="savedDice1" data-man="sparad"></button>
+            <button id="savedDice2" data-man="sparad"></button>
+            <button id="savedDice3" data-man="sparad"></button>
+            <button id="savedDice4" data-man="sparad"></button>
+            <button id="savedDice5" data-man="sparad"></button>
+    </div>
+    <div id="buttonDiv">
+        <button id="saveAndRoll">Spara och kasta igen!</button>
+    </div>
+    
+</body>
+</html>

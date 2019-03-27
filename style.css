@@ -1,0 +1,5 @@
+#dices, #dices2{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
